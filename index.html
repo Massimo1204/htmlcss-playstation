@@ -18,15 +18,15 @@
 <body>
     <header>
         <div class="container-fluid">
-            <div class="row bg-dark">
+            <div class="row bg-dark" id="sony">
                 <div class="col-1 offset-11">
-                    <h1 class="text-uppercase text-white">sony</h1>
+                    <h1 class="text-uppercase text-white fs-3 text-end">sony</h1>
                 </div>
             </div>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light ">
                 <img class="navbar-brand" src="img/play_logo.svg" alt="Playstation logo">
-                <div class="collpse navbar-collapse">
+                <div class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                         <li class="nav-item">
                             <a class="nav-link fs-5 text-dark" href="#" >Giochi<i class="fas fa-chevron-down ps-2 fs-6 text-secondary"></i></a>
@@ -47,10 +47,41 @@
                             <a class="nav-link fs-5 text-dark" href="#" >Supporto<i class="fas fa-chevron-down ps-2 fs-6 text-secondary"></i></a>
                         </li>
                     </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-3">
+                            <a class="nav-link fs-5 text-dark" href="#" >My Playstation<i class="fas fa-chevron-down ps-2 fs-6 text-secondary"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-dark rounded-pill text-white my-btn-sign mt-1 ms-3">Accedi</button>
+                        </li>
+                        <li class="nav-item d-flex align-item-center">
+                            <img class="img-fluid ms-4 me-2" id="search" src="img/lens.svg" alt="search img">
+                        </li>
+                    </ul>
                 </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </nav>
         </div>
     
+        <section id="jumbo">
+            <div class="container-fluid">
+                <div class="row">
+                   
+                    <div class="col-12 col-xl-4 text-white">
+                        <div class="row">
+                            <div class="col-12 col-xl-6">
+                                <img src="img/returnal-hero-banner-logo.png" class="img-fluid" alt="img returnal">
+                            </div>
+                        </div>
+                        <h1>Rompi il cerchio</h1>
+                        <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascentifico, disponibile in esclusiva su PS5.</p>
+                        <button type="button" class="btn rounded-pill"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 </body>
 </html>
