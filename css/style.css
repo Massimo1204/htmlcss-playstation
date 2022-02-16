@@ -6,12 +6,17 @@
     background-color: rgb(205, 61, 15);
 }
 
+.my-btn-info{
+    background-color: rgb(45, 100, 230);
+}
+
 #search{
     width: 30px;
 }
 
-#sony{
+body{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 #jumbo{
@@ -23,10 +28,14 @@
     height: 670px
 }
 
-.banner img{
+#jumbo-banner img{
     border-radius: 15px;
 }
 
-.banner .row{
+.my-text-blue{
+    color: rgb(0, 114, 206);
+}
 
+.my-text-grey{
+    color: rgb(107, 107, 107);
 }
