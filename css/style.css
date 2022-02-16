@@ -5,6 +5,7 @@
 .my-btn-buy{
     background-color: rgb(205, 61, 15);
 }
+
 #search{
     width: 30px;
 }
@@ -20,4 +21,12 @@
 
 .height-670{
     height: 670px
+}
+
+.banner img{
+    border-radius: 15px;
+}
+
+.banner .row{
+
 }
