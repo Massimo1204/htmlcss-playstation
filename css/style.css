@@ -15,4 +15,9 @@
 
 #jumbo{
     background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+}
+
+.height-670{
+    height: 670px
 }
