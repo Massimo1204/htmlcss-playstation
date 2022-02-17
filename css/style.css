@@ -1,3 +1,26 @@
+/* BODY and FONTS */
+.my-btn-info,
+.my-btn-buy,
+.my-btn-sign,
+body{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+body h1{
+    font-size: 2.75rem;
+}
+
+.my-text-blue{
+    color: rgb(0, 114, 206);
+}
+
+.my-text-grey{
+    color: rgb(131, 131, 131);
+}
+
+/* BUTTONS */
 .my-btn-sign{
     padding: 7px 15px 12px 15px;
 }
@@ -10,23 +33,7 @@
     background-color: rgb(45, 100, 230);
 }
 
-#search{
-    width: 30px;
-}
-
-#sony{
-    background-color: black;
-}
-#sony img{
-    width: 90px;
-    margin: 15px 0;
-}
-
-body{
-    font-family: 'Roboto' , snas-serif;
-    font-weight: 500;
-}
-
+/* BACKGROUNDS */
 #jumbo{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -49,29 +56,26 @@ footer{
     background-color: rgb(0, 67, 156);
 }
 
-.height-670{
-    height: 670px
-}
-
-#new img,
-#jumbo-banner img{
-    border-radius: 15px;
-}
-
-#it-takes-two h1{
-    font-size: 2.75rem;
+#sony{
+    background-color: black;
 }
 
 #plus{
     background-color: rgb(190, 188, 187);
 }
 
-.my-text-blue{
-    color: rgb(0, 114, 206);
+/* IMAGES */
+#sony img{
+    width: 90px;
+    margin: 15px 0;
+}
+#search{
+    width: 30px;
 }
 
-.my-text-grey{
-    color: rgb(131, 131, 131);
+#new img,
+#jumbo-banner img{
+    border-radius: 15px;
 }
 
 .my-img-width{
@@ -85,3 +89,10 @@ footer{
 #logo-sie{
     width: 25%;
 }
+
+/* HEIGHT (JUMBO AND IT-TAKES-TWO SECTION) */
+.height-670{
+    height: 670px
+}
+/* BONUS */
+/* HOVER */
