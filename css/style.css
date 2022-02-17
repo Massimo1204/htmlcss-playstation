@@ -15,7 +15,11 @@
 }
 
 #sony{
-    font-family: 'roboto serif', sans-serif;
+    background-color: black;
+}
+#sony img{
+    width: 90px;
+    margin: 15px 0;
 }
 
 body{
@@ -40,6 +44,11 @@ body{
 #now{
     background-color: rgb(22, 28, 59);
 }
+
+footer{
+    background-color: rgb(0, 67, 156);
+}
+
 .height-670{
     height: 670px
 }
@@ -67,4 +76,12 @@ body{
 
 .my-img-width{
     width: 65%;
+}
+
+#logo-ps{
+    width: 20%;
+}
+
+#logo-sie{
+    width: 25%;
 }
