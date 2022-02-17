@@ -29,13 +29,23 @@ body{
     background-position: center;
 }
 
+#new{
+    background-color: rgb(31, 31, 31);
+}
+
 .height-670{
     height: 670px
 }
 
+#new img,
 #jumbo-banner img{
     border-radius: 15px;
 }
+
+#it-takes-two h1{
+    font-size: 2.75rem;
+}
+
 
 .my-text-blue{
     color: rgb(0, 114, 206);
